@@ -1,4 +1,4 @@
-## getaccountAllChan.tcl -  First version (v0.1.220320)
+## getaccountAllChan.tcl - (v0.2.220320)
 #
 # Fix/patch (bug) getaccount (See: https://github.com/eggheads/eggdrop/issues/1276 ) with TCL command getaccountAllChan, get from all channel for find and return list of accounts
 # 
@@ -10,7 +10,15 @@
 # Donate :	https://github.com/ZarTek-Creole/DONATE
 #
 ##
-proc getaccountAllChan {args} {
+
+##
+# Configuration
+#
+# Rename getaccount to getaccountAllChan? (1 = Yes, 0 = No )
+set renamegetaccount	0
+#
+##
+proc ::getaccountAllChan {args} {
 	set who			[lindex ${args} 0]
 	set whochan		[lindex ${args} 1]
 	set User_List	[list];
@@ -26,4 +34,9 @@ proc getaccountAllChan {args} {
 	} else {
 		return -1
 	}
+}
+if { $renamegetaccount } {
+	rename ::getaccountAllChan2 ::getaccountAllChan
+	rename ::getaccount ::getaccount.bak
+	rename ::getaccount ::getaccountAllChan2
 }

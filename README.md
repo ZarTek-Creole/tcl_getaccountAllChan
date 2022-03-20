@@ -6,7 +6,7 @@
   - [WGET](#wget)
   - [GIT](#git)
   - [Mirror (fr)](#mirror-fr)
-- [Author:](#author)
+- [Author](#author)
 - [WebSite](#website)
 - [License](#license)
 - [Credits](#credits)
@@ -14,6 +14,8 @@
 - [Contributor](#contributor)
 - [Contact](#contact)
 - [Bugs, Idea.. ?](#bugs-idea-)
+- [Tips and tricks](#tips-and-tricks)
+  - [Replace the real getaccount by getaccountAllChan](#replace-the-real-getaccount-by-getaccountallchan)
 
 # getaccountAllChan
 
@@ -33,47 +35,80 @@ Its use depends on the IRC server configuration.
 
 # Usage
 
-
 **getaccountAllChan** <_nickname_> [~~channel~~]
 
 # Download
+
 ## CURL
 
 ```
 curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
 ```
+
 ## WGET
 
 ```
 curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
 ```
+
 ## GIT
 
 ```
  git clone https://github.com/ZarTek-Creole/tcl_getaccountAllChan.git
  ```
-## Mirror (fr)
-[Eggdrop-FR](https://forum.eggdrop.fr/Nouvelle-commande-getaccountAllChan-nickname-channel-t-1911.html)
 
-# Author:
+## Mirror (fr)
+
+* [Eggdrop-FR](https://forum.eggdrop.fr/Nouvelle-commande-getaccountAllChan-nickname-channel-t-1911.html)
+- [scripts.eggdrop.fr](https://scripts.eggdrop.fr/details-getaccountAllChan-s261.html
+)
+
+# Author
+
 - [ZarTek](https://github.com/ZarTek-Creole)
 
 # WebSite
+
 - [https://github.com/ZarTek-Creole](https://github.com/ZarTek-Creole)
+
 # License
+
 [GNU GENERAL PUBLIC LICENSE V3](LICENSE)
 
 # Credits
+
 - [jobe1986](https://github.com/jobe1986)
 - [eggheads/Eggdrops team](https://www.eggheads.org)
 - and also a big thank you to the French community [Eggdrop-FR](https://www.eggdrop.fr)
 
 # Donate
+
 Welcome to [ZarTek Donation](https://github.com/ZarTek-Creole/DONATE)
+
 # Contributor
+
 Contributor is welcome
+
 # Contact
-IRC: ZarTek @ Liberta on #eggdrop-fr 
+
+IRC: ZarTek @ [Liberta on #eggdrop-fr](ircs://irc.libera.chat:6697/eggdrop-fr)
 
 # Bugs, Idea.. ?
-[New issue for ](https://github.com/ZarTek-Creole/tcl_getaccountAllChan/issues/new)
+
+[New issue for getaccountAllChan](https://github.com/ZarTek-Creole/tcl_getaccountAllChan/issues/new)
+
+# Tips and tricks
+
+## Replace the real getaccount by getaccountAllChan
+
+```
+rename ::getaccountAllChan2 ::getaccountAllChan
+rename ::getaccount ::getaccount.bak
+rename ::getaccount ::getaccountAllChan2
+```
+
+or
+
+Edit getaccountAllChan and set value renamegetaccount to 1
+
+---
