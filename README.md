@@ -91,7 +91,7 @@ Contributor is welcome
 
 # Contact
 
-IRC: ZarTek @ [Liberta on #eggdrop-fr](ircs://irc.libera.chat:6697/eggdrop-fr)
+IRC: ZarTek @ [Libera on #eggdrop-fr](ircs://irc.libera.chat:6697/eggdrop-fr)
 
 # Bugs, Idea.. ?
 
