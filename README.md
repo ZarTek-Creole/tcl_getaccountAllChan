@@ -106,9 +106,9 @@ Contributor is welcome
 ## Replace the real getaccount by getaccountAllChan
 
 ```
-rename ::getaccountAllChan2 ::getaccountAllChan
-rename ::getaccount ::getaccount.bak
-rename ::getaccount ::getaccountAllChan2
+	rename ::getaccountAllChan2 ::getaccountAllChan
+	rename ::getaccount.bak ::getaccount
+	rename ::getaccount ::getaccountAllChan2
 ```
 
 or
