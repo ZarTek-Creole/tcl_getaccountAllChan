@@ -13,6 +13,7 @@
 - [Donate](#donate)
 - [Contributor](#contributor)
 - [Contact](#contact)
+  - [IRC:](#irc)
 - [Bugs, Idea.. ?](#bugs-idea-)
 - [Tips and tricks](#tips-and-tricks)
   - [Replace the real getaccount by getaccountAllChan](#replace-the-real-getaccount-by-getaccountallchan)
@@ -91,7 +92,10 @@ Contributor is welcome
 
 # Contact
 
-IRC: ZarTek @ [Libera on #eggdrop-fr](ircs://irc.libera.chat:6697/eggdrop-fr)
+## IRC: 
+- ZarTek @ [Libera on #eggdrop-fr](https://kiwiirc.com/nextclient/#ircs://irc.libera.chat:6697/eggdrop-fr)
+
+* [irc.libera.chat +6697 With SSL](www.libera.chat)
 
 # Bugs, Idea.. ?
 
