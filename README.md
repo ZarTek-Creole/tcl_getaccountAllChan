@@ -95,7 +95,7 @@ Contributor is welcome
 ## IRC: 
 - ZarTek @ [Libera on #eggdrop-fr](https://kiwiirc.com/nextclient/#ircs://irc.libera.chat:6697/eggdrop-fr)
 
-* [irc.libera.chat +6697 With SSL](www.libera.chat)
+* [irc.libera.chat +6697 With SSL](https://www.libera.chat)
 
 # Bugs, Idea.. ?
 
