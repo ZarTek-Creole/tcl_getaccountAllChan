@@ -5,9 +5,9 @@
 ##
 #
 # Usage :	getaccountAllChan <nickname> [channel]
-# WebSite : https://github.com/ZarTek-Creole/
-# source :	https://github.com/ZarTek-Creole/tcl_getaccountAllChan
-# Donate :	https://github.com/ZarTek-Creole/DONATE
+# WebSite : github.com/ZarTek-Creole/
+# source :	github.com/ZarTek-Creole/tcl_getaccountAllChan
+# Donate :	github.com/ZarTek-Creole/DONATE
 #
 ##
 

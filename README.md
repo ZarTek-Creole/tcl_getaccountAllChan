@@ -43,19 +43,19 @@ Its use depends on the IRC server configuration.
 ## CURL
 
 ```
-curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
+curl github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
 ```
 
 ## WGET
 
 ```
-curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
+curl github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/master.zip
 ```
 
 ## GIT
 
 ```
- git clone https://github.com/ZarTek-Creole/tcl_getaccountAllChan.git
+ git clone github.com/ZarTek-Creole/tcl_getaccountAllChan.git
  ```
 
 ## Mirror (fr)
@@ -66,11 +66,11 @@ curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/m
 
 # Author
 
-- [ZarTek](https://github.com/ZarTek-Creole)
+- [ZarTek](github.com/ZarTek-Creole)
 
 # WebSite
 
-- [https://github.com/ZarTek-Creole](https://github.com/ZarTek-Creole)
+- [github.com/ZarTek-Creole](github.com/ZarTek-Creole)
 
 # License
 
@@ -84,7 +84,7 @@ curl https://github.com/ZarTek-Creole/tcl_getaccountAllChan/archive/refs/heads/m
 
 # Donate
 
-Welcome to [ZarTek Donation](https://github.com/ZarTek-Creole/DONATE)
+Welcome to [ZarTek Donation](github.com/ZarTek-Creole/DONATE)
 
 # Contributor
 
@@ -99,7 +99,7 @@ Contributor is welcome
 
 # Bugs, Idea.. ?
 
-[New issue for getaccountAllChan](https://github.com/ZarTek-Creole/tcl_getaccountAllChan/issues/new)
+[New issue for getaccountAllChan](github.com/ZarTek-Creole/tcl_getaccountAllChan/issues/new)
 
 # Tips and tricks
 
